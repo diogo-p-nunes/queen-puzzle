@@ -55,6 +55,7 @@ class Problem(object):
         checking against a single self.goal is not enough."""
         if isinstance(self.goal, list):
             return is_in(state, self.goal)
+	#added
         else:
             return state.queens == self.goal
 
