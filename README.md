@@ -33,3 +33,9 @@ The output contains the solution found (board representation) and a table which 
     Search algorithm apllied      < Nodes generated / Goal tests / Nodes expanded>
 
 This comes of great help to compare multiple algorithms' performance.
+
+# Important disclaimer
+Only the code under the name queen-puzzle.py was fully written by me.
+Both files search.py (which includes many implemented search algorithms) and utils.py were implemented and given by my AI professors. Any changes I made to any of these files can be accessed via:
+
+     Ctrl + F : #added
