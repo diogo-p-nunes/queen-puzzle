@@ -19,7 +19,8 @@
 
   By the result/ files, we now see that the number of generated and expanded nodes is considerably smaller and therefore 
   the execution time as well.
-  This allows us to experiment with larger queen numbers.
+  This allows us to experiment with larger queen numbers. Yet the process trying to find a solution for the 30-Queens-Puzzle
+  was running for over 2h30, so it's safe to admit we are still far from the objective.
   
 # Considerations
 
