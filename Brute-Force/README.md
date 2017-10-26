@@ -10,7 +10,7 @@
 
         board_find_free_positions(board)
  
-# Conslusions
+# Conclusions
   By the result/ files, one can confirm that a blind search (DFS), given all the possible valid positions at once, will
   very rapidly turn into a gigantic state tree.
   The exponentiality of its time complexity is highlighted when the problem is with 12 queens instead of the classic 
