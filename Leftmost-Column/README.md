@@ -15,7 +15,7 @@
 
       board_find_free_positions_leftmostCol(board)
       
-# Conslusions
+# Conclusions
 
   By the result/ files, we now see that the number of generated and expanded nodes is considerably smaller and therefore 
   the execution time as well.
