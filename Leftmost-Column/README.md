@@ -21,10 +21,3 @@
   the execution time as well.
   This allows us to experiment with larger queen numbers. Yet the process trying to find a solution for the 30-Queens-Puzzle
   was running for over 2h30, so it's safe to admit we are still far from the objective.
-  
-# Considerations
-
-  As far as problem formulation goes, one might say it doesn't get substantially better than this 
-  (please correct me if I'm wrong)
-  To achieve and solve the problem for bigger values of queen number, the next step is to step out of the dark
-  and adventure into the informed (or heuristic) searchs.
