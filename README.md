@@ -1,9 +1,12 @@
 # queen-puzzle
-Where I implement, in python3.5, different search algorithms and methods to solve the Queen Puzzle (n-queens-puzzle)
+Where I implement, in python3.5, different problem formulations of the Queen Puzzle (n-queens-puzzle)
 Follow this Wikipedia link to learn more about this puzzle: https://en.wikipedia.org/wiki/Eight_queens_puzzle
 
 # Description
-The objective is to find new and different ways to formulate the same problem (Queen puzzle) so that the number of generated and expanded nodes can be decreased enough to solve the problem for large numbers of queens.
+The objective is to find new and different ways to formulate the same problem (Queen puzzle) so that the number of generated and expanded nodes can be decreased enough to solve the problem for large numbers of queens using Depth First Tree Search (DFS) - let's settle at 100 queens (100x100 board).
+
+# Hypothesis
+The problem formulation (PF) can and will take great effect on the overall performance of the search algorithm (be it blind or informed). A poor PF will handicap from the very implementation the search method, expanding reductantly the state space so much that it becomes impratical.
 
 # Short Implementation Explanation
 
@@ -15,7 +18,7 @@ The objective is to find new and different ways to formulate the same problem (Q
 
   The objective is to place the 'n' queens so that none is attacked by another.
 
-  The various search algorithms will start with an empty board and will expand the initial state in order to find the
+  The search algorithm will start with an empty board and will expand the initial state in order to find the
   objective (goal state), that is, having no more queens to place.
 
 # Organization
@@ -34,7 +37,7 @@ The output contains the solution found (board representation) and a table which 
     Searcher                      Tab-1
     Search algorithm apllied      < Nodes generated / Goal tests / Nodes expanded>
 
-This comes of great help to compare multiple algorithms' performance.
+This comes of great help to compare multiple algorithms' performance if needed.
 
 # Important disclaimer
 Only the code under the name queen-puzzle.py was fully written by me.
