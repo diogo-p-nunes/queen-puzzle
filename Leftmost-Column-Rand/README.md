@@ -33,3 +33,5 @@
  # Final Note
    With this last increment to the implemented code, I have reached my initial goal: to prove that the problem formulation
    can and will take great effect on the performance of the search algorithm (be it blind or informed).
+   This was a simple project that required more sharp attention to the flow of the puzzle itself than anything else,
+   exactly to prove that it is always better to first study and formulate the problem, and then start thinking about implementation.
