@@ -26,7 +26,7 @@ Under the assumption that the 3 files, queen-puzzle.py, search.py and utils.py a
 
     [time] python3.5 queen-puzzle.py NUMBER-OF-QUEENS
 
-Note that NUMBER-OF-QUEENS must be even (just like the common chess board (8 x 8) -> 8 queens)
+Note that NUMBER-OF-QUEENS must be >= 4 (follow the wikipedia link for more information)
     
 # Output
 The output contains the solution found (board representation) and a table which contains:
