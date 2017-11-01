@@ -2,6 +2,11 @@
 Where I implement, in python3.5, different problem formulations of the Queen Puzzle (n-queens-puzzle)
 Follow this Wikipedia link to learn more about this puzzle: https://en.wikipedia.org/wiki/Eight_queens_puzzle
 
+# UPDATE 
+(01-11-2017)
+  Download and run the Comparator to compare the different types of approaches on many levels
+
+
 # Description
 The objective is to find new and different ways to formulate the same problem (Queen puzzle) so that the number of generated and expanded nodes can be decreased enough to solve the problem for large numbers of queens using Depth First Tree Search (DFS) - let's settle at 100 queens (100x100 board).
 
